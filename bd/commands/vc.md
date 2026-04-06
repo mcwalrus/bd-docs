@@ -1,0 +1,46 @@
+# `bd vc`
+
+**Command:** `bd vc`  
+**Slug:** `vc`
+
+## Help Output
+
+```
+Version control operations for the beads database.
+
+These commands provide git-like version control for your issue data, including branching, merging, and
+viewing history.
+
+Note: 'bd history', 'bd diff', and 'bd branch' also work for quick access.
+This subcommand provides additional operations like merge and commit.
+
+Usage:
+  bd vc [command]
+
+Available Commands:
+  commit      Create a commit with all staged changes
+  merge       Merge a branch into the current branch
+  status      Show current branch and uncommitted changes
+
+Flags:
+  -h, --help   help for vc
+
+Global Flags:
+      --actor string              Actor name for audit trail (default: $BEADS_ACTOR, git user.name, $USER)
+      --db string                 Database path (default: auto-discover .beads/*.db)
+      --dolt-auto-commit string   Dolt auto-commit policy (off|on|batch). 'on': commit after each write. 'batch': defer commits to bd dolt commit; uncommitted changes persist in the working set until then. SIGTERM/SIGHUP flush pending batch commits. Default: off. Override via config key dolt.auto-commit
+      --json                      Output in JSON format
+      --profile                   Generate CPU profile for performance analysis
+  -q, --quiet                     Suppress non-essential output (errors only)
+      --readonly                  Read-only mode: block write operations (for worker sandboxes)
+      --sandbox                   Sandbox mode: disables auto-sync
+  -v, --verbose                   Enable verbose/debug output
+
+Use "bd vc [command] --help" for more information about a command.
+```
+
+## Sub-commands
+
+- [`bd vc commit`](./vc-commit.md) — Create a commit with all staged changes
+- [`bd vc merge`](./vc-merge.md) — Merge a branch into the current branch
+- [`bd vc status`](./vc-status.md) — Show current branch and uncommitted changes

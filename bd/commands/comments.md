@@ -1,0 +1,51 @@
+# `bd comments`
+
+**Command:** `bd comments`  
+**Slug:** `comments`
+
+## Help Output
+
+```
+View or manage comments on an issue.
+
+Examples:
+  # List all comments on an issue
+  bd comments bd-123
+
+  # List comments in JSON format
+  bd comments bd-123 --json
+
+  # Add a comment
+  bd comments add bd-123 "This is a comment"
+
+  # Add a comment from a file
+  bd comments add bd-123 -f notes.txt
+
+Usage:
+  bd comments [issue-id] [flags]
+  bd comments [command]
+
+Available Commands:
+  add         Add a comment to an issue
+
+Flags:
+  -h, --help         help for comments
+      --local-time   Show timestamps in local time instead of UTC
+
+Global Flags:
+      --actor string              Actor name for audit trail (default: $BEADS_ACTOR, git user.name, $USER)
+      --db string                 Database path (default: auto-discover .beads/*.db)
+      --dolt-auto-commit string   Dolt auto-commit policy (off|on|batch). 'on': commit after each write. 'batch': defer commits to bd dolt commit; uncommitted changes persist in the working set until then. SIGTERM/SIGHUP flush pending batch commits. Default: off. Override via config key dolt.auto-commit
+      --json                      Output in JSON format
+      --profile                   Generate CPU profile for performance analysis
+  -q, --quiet                     Suppress non-essential output (errors only)
+      --readonly                  Read-only mode: block write operations (for worker sandboxes)
+      --sandbox                   Sandbox mode: disables auto-sync
+  -v, --verbose                   Enable verbose/debug output
+
+Use "bd comments [command] --help" for more information about a command.
+```
+
+## Sub-commands
+
+- [`bd comments add`](./comments-add.md) — Add a comment to an issue

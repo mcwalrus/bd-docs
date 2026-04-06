@@ -1,0 +1,56 @@
+# `bd worktree`
+
+**Command:** `bd worktree`  
+**Slug:** `worktree`
+
+## Help Output
+
+```
+Manage git worktrees with proper beads configuration.
+
+Worktrees allow multiple working directories sharing the same git repository,
+enabling parallel development (e.g., multiple agents or features).
+
+When creating a worktree, beads automatically sets up a redirect file so all
+worktrees share the same .beads database. This ensures consistent issue state
+across all worktrees.
+
+Examples:
+  bd worktree create feature-auth           # Create worktree with beads redirect
+  bd worktree create bugfix --branch fix-1  # Create with specific branch name
+  bd worktree list                          # List all worktrees
+  bd worktree remove feature-auth           # Remove worktree (with safety checks)
+  bd worktree info                          # Show info about current worktree
+
+Usage:
+  bd worktree [command]
+
+Available Commands:
+  create      Create a worktree with beads redirect
+  info        Show worktree info for current directory
+  list        List all git worktrees
+  remove      Remove a worktree with safety checks
+
+Flags:
+  -h, --help   help for worktree
+
+Global Flags:
+      --actor string              Actor name for audit trail (default: $BEADS_ACTOR, git user.name, $USER)
+      --db string                 Database path (default: auto-discover .beads/*.db)
+      --dolt-auto-commit string   Dolt auto-commit policy (off|on|batch). 'on': commit after each write. 'batch': defer commits to bd dolt commit; uncommitted changes persist in the working set until then. SIGTERM/SIGHUP flush pending batch commits. Default: off. Override via config key dolt.auto-commit
+      --json                      Output in JSON format
+      --profile                   Generate CPU profile for performance analysis
+  -q, --quiet                     Suppress non-essential output (errors only)
+      --readonly                  Read-only mode: block write operations (for worker sandboxes)
+      --sandbox                   Sandbox mode: disables auto-sync
+  -v, --verbose                   Enable verbose/debug output
+
+Use "bd worktree [command] --help" for more information about a command.
+```
+
+## Sub-commands
+
+- [`bd worktree create`](./worktree-create.md) — Create a worktree with beads redirect
+- [`bd worktree info`](./worktree-info.md) — Show worktree info for current directory
+- [`bd worktree list`](./worktree-list.md) — List all git worktrees
+- [`bd worktree remove`](./worktree-remove.md) — Remove a worktree with safety checks

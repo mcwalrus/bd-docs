@@ -1,0 +1,44 @@
+# `bd purge`
+
+**Command:** `bd purge`  
+**Slug:** `purge`
+
+## Help Output
+
+```
+Permanently delete closed ephemeral beads and their associated data.
+
+Closed ephemeral beads (wisps, transient molecules) accumulate rapidly and
+have no value once closed. This command removes them to reclaim storage.
+
+Deletes: issues, dependencies, labels, events, and comments for matching beads.
+Skips: pinned beads (protected).
+
+EXAMPLES:
+  bd purge                           # Preview what would be purged
+  bd purge --force                   # Delete all closed ephemeral beads
+  bd purge --older-than 7d --force   # Only purge items closed 7+ days ago
+  bd purge --pattern "*-wisp-*"      # Only purge matching ID pattern
+  bd purge --dry-run                 # Detailed preview with stats
+
+Usage:
+  bd purge [flags]
+
+Flags:
+      --dry-run             Preview what would be purged with stats
+  -f, --force               Actually purge (without this, shows preview)
+  -h, --help                help for purge
+      --older-than string   Only purge beads closed more than N ago (e.g., 7d, 2w, 30)
+      --pattern string      Only purge beads matching ID glob pattern (e.g., *-wisp-*)
+
+Global Flags:
+      --actor string              Actor name for audit trail (default: $BEADS_ACTOR, git user.name, $USER)
+      --db string                 Database path (default: auto-discover .beads/*.db)
+      --dolt-auto-commit string   Dolt auto-commit policy (off|on|batch). 'on': commit after each write. 'batch': defer commits to bd dolt commit; uncommitted changes persist in the working set until then. SIGTERM/SIGHUP flush pending batch commits. Default: off. Override via config key dolt.auto-commit
+      --json                      Output in JSON format
+      --profile                   Generate CPU profile for performance analysis
+  -q, --quiet                     Suppress non-essential output (errors only)
+      --readonly                  Read-only mode: block write operations (for worker sandboxes)
+      --sandbox                   Sandbox mode: disables auto-sync
+  -v, --verbose                   Enable verbose/debug output
+```

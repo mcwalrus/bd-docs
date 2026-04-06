@@ -1,0 +1,49 @@
+# `bd hooks`
+
+**Command:** `bd hooks`  
+**Slug:** `hooks`
+
+## Help Output
+
+```
+Install, uninstall, or list git hooks for beads integration.
+
+The hooks provide:
+- pre-commit: Run chained hooks before commit
+- post-merge: Run chained hooks after pull/merge
+- pre-push: Run chained hooks before push
+- post-checkout: Run chained hooks after branch checkout
+- prepare-commit-msg: Add agent identity trailers for forensics
+
+Usage:
+  bd hooks [command]
+
+Available Commands:
+  install     Install bd git hooks
+  list        List installed git hooks status
+  run         Execute a git hook (called by thin shims)
+  uninstall   Uninstall bd git hooks
+
+Flags:
+  -h, --help   help for hooks
+
+Global Flags:
+      --actor string              Actor name for audit trail (default: $BEADS_ACTOR, git user.name, $USER)
+      --db string                 Database path (default: auto-discover .beads/*.db)
+      --dolt-auto-commit string   Dolt auto-commit policy (off|on|batch). 'on': commit after each write. 'batch': defer commits to bd dolt commit; uncommitted changes persist in the working set until then. SIGTERM/SIGHUP flush pending batch commits. Default: off. Override via config key dolt.auto-commit
+      --json                      Output in JSON format
+      --profile                   Generate CPU profile for performance analysis
+  -q, --quiet                     Suppress non-essential output (errors only)
+      --readonly                  Read-only mode: block write operations (for worker sandboxes)
+      --sandbox                   Sandbox mode: disables auto-sync
+  -v, --verbose                   Enable verbose/debug output
+
+Use "bd hooks [command] --help" for more information about a command.
+```
+
+## Sub-commands
+
+- [`bd hooks install`](./hooks-install.md) — Install bd git hooks
+- [`bd hooks list`](./hooks-list.md) — List installed git hooks status
+- [`bd hooks run`](./hooks-run.md) — Execute a git hook (called by thin shims)
+- [`bd hooks uninstall`](./hooks-uninstall.md) — Uninstall bd git hooks

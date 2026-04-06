@@ -1,0 +1,1654 @@
+{
+  "checked_commands": {
+    "bd": {
+      "slug": "index",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:34.798534+00:00"
+    },
+    "assign": {
+      "slug": "assign",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:34.856419+00:00"
+    },
+    "children": {
+      "slug": "children",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:34.903479+00:00"
+    },
+    "close": {
+      "slug": "close",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:34.952033+00:00"
+    },
+    "comment": {
+      "slug": "comment",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:35.000272+00:00"
+    },
+    "comments": {
+      "slug": "comments",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:35.051348+00:00"
+    },
+    "create": {
+      "slug": "create",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:35.149474+00:00"
+    },
+    "create-form": {
+      "slug": "create-form",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:35.195824+00:00"
+    },
+    "delete": {
+      "slug": "delete",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:35.243601+00:00"
+    },
+    "edit": {
+      "slug": "edit",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:35.288224+00:00"
+    },
+    "gate": {
+      "slug": "gate",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:35.334922+00:00"
+    },
+    "label": {
+      "slug": "label",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:35.680689+00:00"
+    },
+    "label add": {
+      "slug": "label-add",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:35.726274+00:00"
+    },
+    "label list": {
+      "slug": "label-list",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:35.785185+00:00"
+    },
+    "label list-all": {
+      "slug": "label-list-all",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:35.840973+00:00"
+    },
+    "label propagate": {
+      "slug": "label-propagate",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:35.902995+00:00"
+    },
+    "label remove": {
+      "slug": "label-remove",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:35.953756+00:00"
+    },
+    "link": {
+      "slug": "link",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:36.000108+00:00"
+    },
+    "list": {
+      "slug": "list",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:36.049583+00:00"
+    },
+    "merge-slot": {
+      "slug": "merge-slot",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:36.104280+00:00"
+    },
+    "note": {
+      "slug": "note",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:36.345530+00:00"
+    },
+    "priority": {
+      "slug": "priority",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:36.406274+00:00"
+    },
+    "promote": {
+      "slug": "promote",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:36.455458+00:00"
+    },
+    "q": {
+      "slug": "q",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:36.502866+00:00"
+    },
+    "query": {
+      "slug": "query",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:36.557131+00:00"
+    },
+    "reopen": {
+      "slug": "reopen",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:36.610783+00:00"
+    },
+    "search": {
+      "slug": "search",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:36.660671+00:00"
+    },
+    "set-state": {
+      "slug": "set-state",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:36.711653+00:00"
+    },
+    "show": {
+      "slug": "show",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:36.759117+00:00"
+    },
+    "state": {
+      "slug": "state",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:36.807583+00:00"
+    },
+    "tag": {
+      "slug": "tag",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:36.898686+00:00"
+    },
+    "todo": {
+      "slug": "todo",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:36.944602+00:00"
+    },
+    "update": {
+      "slug": "update",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:37.143627+00:00"
+    },
+    "count": {
+      "slug": "count",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:37.191937+00:00"
+    },
+    "diff": {
+      "slug": "diff",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:37.243165+00:00"
+    },
+    "history": {
+      "slug": "history",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:37.304392+00:00"
+    },
+    "lint": {
+      "slug": "lint",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:37.349738+00:00"
+    },
+    "stale": {
+      "slug": "stale",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:37.397705+00:00"
+    },
+    "status": {
+      "slug": "status",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:37.446567+00:00"
+    },
+    "statuses": {
+      "slug": "statuses",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:37.492360+00:00"
+    },
+    "types": {
+      "slug": "types",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:37.538903+00:00"
+    },
+    "dep": {
+      "slug": "dep",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:37.585828+00:00"
+    },
+    "duplicate": {
+      "slug": "duplicate",
+      "status": "skipped",
+      "reason": "usage-mismatch",
+      "checked_at": "2026-04-06T07:31:37.979392+00:00"
+    },
+    "duplicates": {
+      "slug": "duplicates",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:38.031866+00:00"
+    },
+    "epic": {
+      "slug": "epic",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:38.080665+00:00"
+    },
+    "epic status": {
+      "slug": "epic-status",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:38.133313+00:00"
+    },
+    "graph": {
+      "slug": "graph",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:38.182277+00:00"
+    },
+    "supersede": {
+      "slug": "supersede",
+      "status": "skipped",
+      "reason": "usage-mismatch",
+      "checked_at": "2026-04-06T07:31:38.276882+00:00"
+    },
+    "swarm": {
+      "slug": "swarm",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:38.322293+00:00"
+    },
+    "swarm create": {
+      "slug": "swarm-create",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:38.376801+00:00"
+    },
+    "swarm list": {
+      "slug": "swarm-list",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:38.426893+00:00"
+    },
+    "swarm status": {
+      "slug": "swarm-status",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:38.475380+00:00"
+    },
+    "swarm validate": {
+      "slug": "swarm-validate",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:38.523054+00:00"
+    },
+    "backup": {
+      "slug": "backup",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:38.574146+00:00"
+    },
+    "branch": {
+      "slug": "branch",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:38.869545+00:00"
+    },
+    "export": {
+      "slug": "export",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:38.961950+00:00"
+    },
+    "federation": {
+      "slug": "federation",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:39.014912+00:00"
+    },
+    "federation add-peer": {
+      "slug": "federation-add-peer",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:39.063646+00:00"
+    },
+    "federation list-peers": {
+      "slug": "federation-list-peers",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:39.114842+00:00"
+    },
+    "federation status": {
+      "slug": "federation-status",
+      "status": "skipped",
+      "reason": "usage-mismatch",
+      "checked_at": "2026-04-06T07:31:39.162977+00:00"
+    },
+    "federation sync": {
+      "slug": "federation-sync",
+      "status": "skipped",
+      "reason": "usage-mismatch",
+      "checked_at": "2026-04-06T07:31:39.209953+00:00"
+    },
+    "import": {
+      "slug": "import",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:39.310499+00:00"
+    },
+    "restore": {
+      "slug": "restore",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:39.359587+00:00"
+    },
+    "vc": {
+      "slug": "vc",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:39.406831+00:00"
+    },
+    "vc commit": {
+      "slug": "vc-commit",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:39.456242+00:00"
+    },
+    "vc merge": {
+      "slug": "vc-merge",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:39.506354+00:00"
+    },
+    "vc status": {
+      "slug": "vc-status",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:39.560291+00:00"
+    },
+    "bootstrap": {
+      "slug": "bootstrap",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:39.628261+00:00"
+    },
+    "config": {
+      "slug": "config",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:39.699018+00:00"
+    },
+    "context": {
+      "slug": "context",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:40.039404+00:00"
+    },
+    "dolt": {
+      "slug": "dolt",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:40.089262+00:00"
+    },
+    "forget": {
+      "slug": "forget",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:40.806987+00:00"
+    },
+    "hooks": {
+      "slug": "hooks",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:40.854396+00:00"
+    },
+    "hooks install": {
+      "slug": "hooks-install",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:40.901200+00:00"
+    },
+    "hooks list": {
+      "slug": "hooks-list",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:40.947814+00:00"
+    },
+    "hooks run": {
+      "slug": "hooks-run",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:40.998988+00:00"
+    },
+    "hooks uninstall": {
+      "slug": "hooks-uninstall",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:41.049086+00:00"
+    },
+    "human": {
+      "slug": "human",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:41.099765+00:00"
+    },
+    "info": {
+      "slug": "info",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:41.339141+00:00"
+    },
+    "init": {
+      "slug": "init",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:41.386824+00:00"
+    },
+    "kv": {
+      "slug": "kv",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:41.431972+00:00"
+    },
+    "memories": {
+      "slug": "memories",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:41.672061+00:00"
+    },
+    "onboard": {
+      "slug": "onboard",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:41.719532+00:00"
+    },
+    "prime": {
+      "slug": "prime",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:41.770598+00:00"
+    },
+    "quickstart": {
+      "slug": "quickstart",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:41.826078+00:00"
+    },
+    "recall": {
+      "slug": "recall",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:41.870171+00:00"
+    },
+    "remember": {
+      "slug": "remember",
+      "status": "skipped",
+      "reason": "usage-mismatch",
+      "checked_at": "2026-04-06T07:31:41.914501+00:00"
+    },
+    "setup": {
+      "slug": "setup",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:41.961622+00:00"
+    },
+    "where": {
+      "slug": "where",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:42.005701+00:00"
+    },
+    "compact": {
+      "slug": "compact",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:42.059790+00:00"
+    },
+    "doctor": {
+      "slug": "doctor",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:42.106780+00:00"
+    },
+    "flatten": {
+      "slug": "flatten",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:42.156984+00:00"
+    },
+    "gc": {
+      "slug": "gc",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:42.206691+00:00"
+    },
+    "migrate": {
+      "slug": "migrate",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:42.281160+00:00"
+    },
+    "migrate hooks": {
+      "slug": "migrate-hooks",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:42.333270+00:00"
+    },
+    "migrate issues": {
+      "slug": "migrate-issues",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:42.381852+00:00"
+    },
+    "migrate sync": {
+      "slug": "migrate-sync",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:42.429264+00:00"
+    },
+    "preflight": {
+      "slug": "preflight",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:42.475912+00:00"
+    },
+    "purge": {
+      "slug": "purge",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:42.524091+00:00"
+    },
+    "rename-prefix": {
+      "slug": "rename-prefix",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:42.574460+00:00"
+    },
+    "rules": {
+      "slug": "rules",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:42.626191+00:00"
+    },
+    "rules audit": {
+      "slug": "rules-audit",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:42.674214+00:00"
+    },
+    "rules compact": {
+      "slug": "rules-compact",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:42.723247+00:00"
+    },
+    "sql": {
+      "slug": "sql",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:42.769751+00:00"
+    },
+    "upgrade": {
+      "slug": "upgrade",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:42.815620+00:00"
+    },
+    "upgrade ack": {
+      "slug": "upgrade-ack",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:42.861261+00:00"
+    },
+    "upgrade review": {
+      "slug": "upgrade-review",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:42.906353+00:00"
+    },
+    "upgrade status": {
+      "slug": "upgrade-status",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:42.950500+00:00"
+    },
+    "worktree": {
+      "slug": "worktree",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:42.995014+00:00"
+    },
+    "admin": {
+      "slug": "admin",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:43.238610+00:00"
+    },
+    "admin cleanup": {
+      "slug": "admin-cleanup",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:43.286476+00:00"
+    },
+    "admin compact": {
+      "slug": "admin-compact",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:43.332351+00:00"
+    },
+    "admin reset": {
+      "slug": "admin-reset",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:43.377115+00:00"
+    },
+    "jira": {
+      "slug": "jira",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:43.424378+00:00"
+    },
+    "linear": {
+      "slug": "linear",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:43.575871+00:00"
+    },
+    "repo": {
+      "slug": "repo",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:43.786871+00:00"
+    },
+    "ado": {
+      "slug": "ado",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:44.028979+00:00"
+    },
+    "ado projects": {
+      "slug": "ado-projects",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:44.080805+00:00"
+    },
+    "ado status": {
+      "slug": "ado-status",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:44.128505+00:00"
+    },
+    "ado sync": {
+      "slug": "ado-sync",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:44.178387+00:00"
+    },
+    "audit": {
+      "slug": "audit",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:44.224600+00:00"
+    },
+    "audit label": {
+      "slug": "audit-label",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:44.273801+00:00"
+    },
+    "audit record": {
+      "slug": "audit-record",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:44.327796+00:00"
+    },
+    "blocked": {
+      "slug": "blocked",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:44.378413+00:00"
+    },
+    "cook": {
+      "slug": "cook",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:44.477561+00:00"
+    },
+    "defer": {
+      "slug": "defer",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:44.527048+00:00"
+    },
+    "formula": {
+      "slug": "formula",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:44.574430+00:00"
+    },
+    "formula convert": {
+      "slug": "formula-convert",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:44.620939+00:00"
+    },
+    "formula list": {
+      "slug": "formula-list",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:44.670357+00:00"
+    },
+    "formula show": {
+      "slug": "formula-show",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:44.718096+00:00"
+    },
+    "github": {
+      "slug": "github",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:44.768027+00:00"
+    },
+    "github repos": {
+      "slug": "github-repos",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:44.816193+00:00"
+    },
+    "github status": {
+      "slug": "github-status",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:44.863626+00:00"
+    },
+    "github sync": {
+      "slug": "github-sync",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:44.910108+00:00"
+    },
+    "gitlab": {
+      "slug": "gitlab",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:44.958102+00:00"
+    },
+    "gitlab projects": {
+      "slug": "gitlab-projects",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:45.005144+00:00"
+    },
+    "gitlab status": {
+      "slug": "gitlab-status",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:45.053992+00:00"
+    },
+    "gitlab sync": {
+      "slug": "gitlab-sync",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:45.101830+00:00"
+    },
+    "mail": {
+      "slug": "mail",
+      "status": "skipped",
+      "reason": "usage-mismatch",
+      "checked_at": "2026-04-06T07:31:45.227113+00:00"
+    },
+    "mol": {
+      "slug": "mol",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:45.274511+00:00"
+    },
+    "mol bond": {
+      "slug": "mol-bond",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:45.323469+00:00"
+    },
+    "mol burn": {
+      "slug": "mol-burn",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:45.371557+00:00"
+    },
+    "mol current": {
+      "slug": "mol-current",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:45.418502+00:00"
+    },
+    "mol distill": {
+      "slug": "mol-distill",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:45.464146+00:00"
+    },
+    "mol pour": {
+      "slug": "mol-pour",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:45.510093+00:00"
+    },
+    "mol progress": {
+      "slug": "mol-progress",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:45.557154+00:00"
+    },
+    "mol ready": {
+      "slug": "mol-ready",
+      "status": "skipped",
+      "reason": "usage-mismatch",
+      "checked_at": "2026-04-06T07:31:45.603006+00:00"
+    },
+    "mol seed": {
+      "slug": "mol-seed",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:45.654797+00:00"
+    },
+    "mol show": {
+      "slug": "mol-show",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:45.702988+00:00"
+    },
+    "mol squash": {
+      "slug": "mol-squash",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:45.748772+00:00"
+    },
+    "mol stale": {
+      "slug": "mol-stale",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:45.805648+00:00"
+    },
+    "mol wisp": {
+      "slug": "mol-wisp",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:45.914498+00:00"
+    },
+    "notion": {
+      "slug": "notion",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:46.097587+00:00"
+    },
+    "notion connect": {
+      "slug": "notion-connect",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:46.152533+00:00"
+    },
+    "notion init": {
+      "slug": "notion-init",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:46.204350+00:00"
+    },
+    "notion status": {
+      "slug": "notion-status",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:46.255223+00:00"
+    },
+    "notion sync": {
+      "slug": "notion-sync",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:46.304274+00:00"
+    },
+    "orphans": {
+      "slug": "orphans",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:46.349775+00:00"
+    },
+    "ready": {
+      "slug": "ready",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:46.394813+00:00"
+    },
+    "rename": {
+      "slug": "rename",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:46.438994+00:00"
+    },
+    "ship": {
+      "slug": "ship",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:46.484098+00:00"
+    },
+    "undefer": {
+      "slug": "undefer",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:46.533357+00:00"
+    },
+    "version": {
+      "slug": "version",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:46.579334+00:00"
+    },
+    "comments add": {
+      "slug": "comments-add",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:35.102265+00:00"
+    },
+    "gate add-waiter": {
+      "slug": "gate-add-waiter",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:35.384820+00:00"
+    },
+    "gate check": {
+      "slug": "gate-check",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:35.433127+00:00"
+    },
+    "gate check gh": {
+      "slug": "gate-check-gh",
+      "status": "skipped",
+      "reason": "usage-mismatch",
+      "checked_at": "2026-04-06T07:23:48.527607+00:00"
+    },
+    "gate check gh:run": {
+      "slug": "gate-check-gh:run",
+      "status": "skipped",
+      "reason": "usage-mismatch",
+      "checked_at": "2026-04-06T07:23:48.575851+00:00"
+    },
+    "gate check gh:pr": {
+      "slug": "gate-check-gh:pr",
+      "status": "skipped",
+      "reason": "usage-mismatch",
+      "checked_at": "2026-04-06T07:23:48.622071+00:00"
+    },
+    "gate check timer": {
+      "slug": "gate-check-timer",
+      "status": "skipped",
+      "reason": "usage-mismatch",
+      "checked_at": "2026-04-06T07:23:48.669633+00:00"
+    },
+    "gate check bead": {
+      "slug": "gate-check-bead",
+      "status": "skipped",
+      "reason": "usage-mismatch",
+      "checked_at": "2026-04-06T07:23:48.716104+00:00"
+    },
+    "gate check all": {
+      "slug": "gate-check-all",
+      "status": "skipped",
+      "reason": "usage-mismatch",
+      "checked_at": "2026-04-06T07:23:48.762489+00:00"
+    },
+    "gate discover": {
+      "slug": "gate-discover",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:35.481410+00:00"
+    },
+    "gate list": {
+      "slug": "gate-list",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:35.530748+00:00"
+    },
+    "gate resolve": {
+      "slug": "gate-resolve",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:35.585737+00:00"
+    },
+    "gate show": {
+      "slug": "gate-show",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:35.633495+00:00"
+    },
+    "merge-slot acquire": {
+      "slug": "merge-slot-acquire",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:36.151435+00:00"
+    },
+    "merge-slot check": {
+      "slug": "merge-slot-check",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:36.197249+00:00"
+    },
+    "merge-slot create": {
+      "slug": "merge-slot-create",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:36.244082+00:00"
+    },
+    "merge-slot release": {
+      "slug": "merge-slot-release",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:36.294570+00:00"
+    },
+    "query status": {
+      "slug": "query-status",
+      "status": "skipped",
+      "reason": "usage-mismatch",
+      "checked_at": "2026-04-06T07:23:49.952502+00:00"
+    },
+    "query priority": {
+      "slug": "query-priority",
+      "status": "skipped",
+      "reason": "usage-mismatch",
+      "checked_at": "2026-04-06T07:23:50.004765+00:00"
+    },
+    "query type": {
+      "slug": "query-type",
+      "status": "skipped",
+      "reason": "usage-mismatch",
+      "checked_at": "2026-04-06T07:23:50.065850+00:00"
+    },
+    "query assignee": {
+      "slug": "query-assignee",
+      "status": "skipped",
+      "reason": "usage-mismatch",
+      "checked_at": "2026-04-06T07:23:50.116018+00:00"
+    },
+    "query owner": {
+      "slug": "query-owner",
+      "status": "skipped",
+      "reason": "usage-mismatch",
+      "checked_at": "2026-04-06T07:23:50.162106+00:00"
+    },
+    "query label": {
+      "slug": "query-label",
+      "status": "skipped",
+      "reason": "usage-mismatch",
+      "checked_at": "2026-04-06T07:23:50.207901+00:00"
+    },
+    "query title": {
+      "slug": "query-title",
+      "status": "skipped",
+      "reason": "usage-mismatch",
+      "checked_at": "2026-04-06T07:23:50.255455+00:00"
+    },
+    "query description": {
+      "slug": "query-description",
+      "status": "skipped",
+      "reason": "usage-mismatch",
+      "checked_at": "2026-04-06T07:23:50.302119+00:00"
+    },
+    "query notes": {
+      "slug": "query-notes",
+      "status": "skipped",
+      "reason": "usage-mismatch",
+      "checked_at": "2026-04-06T07:23:50.349488+00:00"
+    },
+    "query created": {
+      "slug": "query-created",
+      "status": "skipped",
+      "reason": "usage-mismatch",
+      "checked_at": "2026-04-06T07:23:50.396757+00:00"
+    },
+    "query updated": {
+      "slug": "query-updated",
+      "status": "skipped",
+      "reason": "usage-mismatch",
+      "checked_at": "2026-04-06T07:23:50.442054+00:00"
+    },
+    "query closed": {
+      "slug": "query-closed",
+      "status": "skipped",
+      "reason": "usage-mismatch",
+      "checked_at": "2026-04-06T07:23:50.489878+00:00"
+    },
+    "query id": {
+      "slug": "query-id",
+      "status": "skipped",
+      "reason": "usage-mismatch",
+      "checked_at": "2026-04-06T07:23:50.542308+00:00"
+    },
+    "query spec": {
+      "slug": "query-spec",
+      "status": "skipped",
+      "reason": "usage-mismatch",
+      "checked_at": "2026-04-06T07:23:50.635806+00:00"
+    },
+    "query pinned": {
+      "slug": "query-pinned",
+      "status": "skipped",
+      "reason": "usage-mismatch",
+      "checked_at": "2026-04-06T07:23:50.693964+00:00"
+    },
+    "query ephemeral": {
+      "slug": "query-ephemeral",
+      "status": "skipped",
+      "reason": "usage-mismatch",
+      "checked_at": "2026-04-06T07:23:50.747256+00:00"
+    },
+    "query template": {
+      "slug": "query-template",
+      "status": "skipped",
+      "reason": "usage-mismatch",
+      "checked_at": "2026-04-06T07:23:50.805022+00:00"
+    },
+    "query parent": {
+      "slug": "query-parent",
+      "status": "skipped",
+      "reason": "usage-mismatch",
+      "checked_at": "2026-04-06T07:23:50.855079+00:00"
+    },
+    "state list": {
+      "slug": "state-list",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:36.852501+00:00"
+    },
+    "todo add": {
+      "slug": "todo-add",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:36.992197+00:00"
+    },
+    "todo done": {
+      "slug": "todo-done",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:37.044383+00:00"
+    },
+    "todo list": {
+      "slug": "todo-list",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:37.094910+00:00"
+    },
+    "lint bug:": {
+      "slug": "lint-bug:",
+      "status": "skipped",
+      "reason": "usage-mismatch",
+      "checked_at": "2026-04-06T07:23:51.674640+00:00"
+    },
+    "lint task:": {
+      "slug": "lint-task:",
+      "status": "skipped",
+      "reason": "usage-mismatch",
+      "checked_at": "2026-04-06T07:23:51.721930+00:00"
+    },
+    "lint feature:": {
+      "slug": "lint-feature:",
+      "status": "skipped",
+      "reason": "usage-mismatch",
+      "checked_at": "2026-04-06T07:23:51.767762+00:00"
+    },
+    "lint epic:": {
+      "slug": "lint-epic:",
+      "status": "skipped",
+      "reason": "usage-mismatch",
+      "checked_at": "2026-04-06T07:23:51.814007+00:00"
+    },
+    "lint chore:": {
+      "slug": "lint-chore:",
+      "status": "skipped",
+      "reason": "usage-mismatch",
+      "checked_at": "2026-04-06T07:23:51.859266+00:00"
+    },
+    "statuses active": {
+      "slug": "statuses-active",
+      "status": "skipped",
+      "reason": "usage-mismatch",
+      "checked_at": "2026-04-06T07:23:52.061258+00:00"
+    },
+    "statuses wip": {
+      "slug": "statuses-wip",
+      "status": "skipped",
+      "reason": "usage-mismatch",
+      "checked_at": "2026-04-06T07:23:52.112641+00:00"
+    },
+    "statuses done": {
+      "slug": "statuses-done",
+      "status": "skipped",
+      "reason": "usage-mismatch",
+      "checked_at": "2026-04-06T07:23:52.159772+00:00"
+    },
+    "statuses frozen": {
+      "slug": "statuses-frozen",
+      "status": "skipped",
+      "reason": "usage-mismatch",
+      "checked_at": "2026-04-06T07:23:52.207590+00:00"
+    },
+    "dep add": {
+      "slug": "dep-add",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:37.643108+00:00"
+    },
+    "dep cycles": {
+      "slug": "dep-cycles",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:37.688322+00:00"
+    },
+    "dep list": {
+      "slug": "dep-list",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:37.733197+00:00"
+    },
+    "dep relate": {
+      "slug": "dep-relate",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:37.779730+00:00"
+    },
+    "dep remove": {
+      "slug": "dep-remove",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:37.823987+00:00"
+    },
+    "dep tree": {
+      "slug": "dep-tree",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:37.872506+00:00"
+    },
+    "dep unrelate": {
+      "slug": "dep-unrelate",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:37.933762+00:00"
+    },
+    "graph check": {
+      "slug": "graph-check",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:38.228566+00:00"
+    },
+    "backup init": {
+      "slug": "backup-init",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:38.624677+00:00"
+    },
+    "backup remove": {
+      "slug": "backup-remove",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:38.671682+00:00"
+    },
+    "backup restore": {
+      "slug": "backup-restore",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:38.723763+00:00"
+    },
+    "backup status": {
+      "slug": "backup-status",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:38.772364+00:00"
+    },
+    "backup sync": {
+      "slug": "backup-sync",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:38.819021+00:00"
+    },
+    "config get": {
+      "slug": "config-get",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:39.754045+00:00"
+    },
+    "config list": {
+      "slug": "config-list",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:39.804321+00:00"
+    },
+    "config set": {
+      "slug": "config-set",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:39.849778+00:00"
+    },
+    "config set-many": {
+      "slug": "config-set-many",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:39.896649+00:00"
+    },
+    "config unset": {
+      "slug": "config-unset",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:39.943783+00:00"
+    },
+    "config validate": {
+      "slug": "config-validate",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:39.990098+00:00"
+    },
+    "dolt commit": {
+      "slug": "dolt-commit",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:40.138896+00:00"
+    },
+    "dolt killall": {
+      "slug": "dolt-killall",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:40.187192+00:00"
+    },
+    "dolt pull": {
+      "slug": "dolt-pull",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:40.235578+00:00"
+    },
+    "dolt push": {
+      "slug": "dolt-push",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:40.288211+00:00"
+    },
+    "dolt remote": {
+      "slug": "dolt-remote",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:40.334901+00:00"
+    },
+    "dolt remote add": {
+      "slug": "dolt-remote-add",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:40.379836+00:00"
+    },
+    "dolt remote list": {
+      "slug": "dolt-remote-list",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:40.425283+00:00"
+    },
+    "dolt remote remove": {
+      "slug": "dolt-remote-remove",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:40.470224+00:00"
+    },
+    "dolt set": {
+      "slug": "dolt-set",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:40.520559+00:00"
+    },
+    "dolt set database": {
+      "slug": "dolt-set-database",
+      "status": "skipped",
+      "reason": "usage-mismatch",
+      "checked_at": "2026-04-06T07:23:55.336750+00:00"
+    },
+    "dolt set host": {
+      "slug": "dolt-set-host",
+      "status": "skipped",
+      "reason": "usage-mismatch",
+      "checked_at": "2026-04-06T07:23:55.382706+00:00"
+    },
+    "dolt set port": {
+      "slug": "dolt-set-port",
+      "status": "skipped",
+      "reason": "usage-mismatch",
+      "checked_at": "2026-04-06T07:23:55.428812+00:00"
+    },
+    "dolt set user": {
+      "slug": "dolt-set-user",
+      "status": "skipped",
+      "reason": "usage-mismatch",
+      "checked_at": "2026-04-06T07:23:55.476464+00:00"
+    },
+    "dolt set data-dir": {
+      "slug": "dolt-set-data-dir",
+      "status": "skipped",
+      "reason": "usage-mismatch",
+      "checked_at": "2026-04-06T07:23:55.530906+00:00"
+    },
+    "dolt show": {
+      "slug": "dolt-show",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:40.568278+00:00"
+    },
+    "dolt start": {
+      "slug": "dolt-start",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:40.618805+00:00"
+    },
+    "dolt status": {
+      "slug": "dolt-status",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:40.664797+00:00"
+    },
+    "dolt stop": {
+      "slug": "dolt-stop",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:40.709738+00:00"
+    },
+    "dolt test": {
+      "slug": "dolt-test",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:40.755956+00:00"
+    },
+    "human dismiss": {
+      "slug": "human-dismiss",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:41.152463+00:00"
+    },
+    "human list": {
+      "slug": "human-list",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:41.197924+00:00"
+    },
+    "human respond": {
+      "slug": "human-respond",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:41.243854+00:00"
+    },
+    "human stats": {
+      "slug": "human-stats",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:41.294886+00:00"
+    },
+    "kv clear": {
+      "slug": "kv-clear",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:41.476779+00:00"
+    },
+    "kv get": {
+      "slug": "kv-get",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:41.525296+00:00"
+    },
+    "kv list": {
+      "slug": "kv-list",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:41.574117+00:00"
+    },
+    "kv set": {
+      "slug": "kv-set",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:41.624242+00:00"
+    },
+    "worktree create": {
+      "slug": "worktree-create",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:43.041568+00:00"
+    },
+    "worktree info": {
+      "slug": "worktree-info",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:43.090099+00:00"
+    },
+    "worktree list": {
+      "slug": "worktree-list",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:43.142448+00:00"
+    },
+    "worktree remove": {
+      "slug": "worktree-remove",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:43.189214+00:00"
+    },
+    "jira status": {
+      "slug": "jira-status",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:43.468578+00:00"
+    },
+    "jira sync": {
+      "slug": "jira-sync",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:43.515545+00:00"
+    },
+    "linear status": {
+      "slug": "linear-status",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:43.624643+00:00"
+    },
+    "linear sync": {
+      "slug": "linear-sync",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:43.675437+00:00"
+    },
+    "linear teams": {
+      "slug": "linear-teams",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:43.728658+00:00"
+    },
+    "repo add": {
+      "slug": "repo-add",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:43.835254+00:00"
+    },
+    "repo list": {
+      "slug": "repo-list",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:43.881990+00:00"
+    },
+    "repo remove": {
+      "slug": "repo-remove",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:43.930051+00:00"
+    },
+    "repo sync": {
+      "slug": "repo-sync",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:43.974580+00:00"
+    },
+    "mol bond parallel": {
+      "slug": "mol-bond-parallel",
+      "status": "skipped",
+      "reason": "usage-mismatch",
+      "checked_at": "2026-04-06T07:24:01.016605+00:00"
+    },
+    "mol bond conditional": {
+      "slug": "mol-bond-conditional",
+      "status": "skipped",
+      "reason": "usage-mismatch",
+      "checked_at": "2026-04-06T07:24:01.082342+00:00"
+    },
+    "mol wisp create": {
+      "slug": "mol-wisp-create",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:45.960654+00:00"
+    },
+    "mol wisp gc": {
+      "slug": "mol-wisp-gc",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:46.004584+00:00"
+    },
+    "mol wisp list": {
+      "slug": "mol-wisp-list",
+      "status": "checked",
+      "reason": "",
+      "checked_at": "2026-04-06T07:31:46.050845+00:00"
+    }
+  }
+}

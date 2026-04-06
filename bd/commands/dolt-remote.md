@@ -1,0 +1,45 @@
+# `bd dolt remote`
+
+**Command:** `bd dolt remote`  
+**Slug:** `dolt-remote`
+
+## Help Output
+
+```
+Manage Dolt remotes for push/pull replication.
+
+Subcommands:
+  add <name> <url>   Add a new remote
+  list               List all configured remotes
+  remove <name>      Remove a remote
+
+Usage:
+  bd dolt remote [command]
+
+Available Commands:
+  add         Add a Dolt remote (both SQL server and CLI)
+  list        List configured Dolt remotes (SQL server + CLI)
+  remove      Remove a Dolt remote (both SQL server and CLI)
+
+Flags:
+  -h, --help   help for remote
+
+Global Flags:
+      --actor string              Actor name for audit trail (default: $BEADS_ACTOR, git user.name, $USER)
+      --db string                 Database path (default: auto-discover .beads/*.db)
+      --dolt-auto-commit string   Dolt auto-commit policy (off|on|batch). 'on': commit after each write. 'batch': defer commits to bd dolt commit; uncommitted changes persist in the working set until then. SIGTERM/SIGHUP flush pending batch commits. Default: off. Override via config key dolt.auto-commit
+      --json                      Output in JSON format
+      --profile                   Generate CPU profile for performance analysis
+  -q, --quiet                     Suppress non-essential output (errors only)
+      --readonly                  Read-only mode: block write operations (for worker sandboxes)
+      --sandbox                   Sandbox mode: disables auto-sync
+  -v, --verbose                   Enable verbose/debug output
+
+Use "bd dolt remote [command] --help" for more information about a command.
+```
+
+## Sub-commands
+
+- [`bd dolt remote add`](./dolt-remote-add.md) — Add a Dolt remote (both SQL server and CLI)
+- [`bd dolt remote list`](./dolt-remote-list.md) — List configured Dolt remotes (SQL server + CLI)
+- [`bd dolt remote remove`](./dolt-remote-remove.md) — Remove a Dolt remote (both SQL server and CLI)

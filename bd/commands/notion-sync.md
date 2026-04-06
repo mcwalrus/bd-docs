@@ -1,0 +1,36 @@
+# `bd notion sync`
+
+**Command:** `bd notion sync`  
+**Slug:** `notion-sync`
+
+## Help Output
+
+```
+Synchronize issues between beads and Notion.
+
+By default this performs bidirectional sync. Use --pull or --push to limit direction.
+
+Usage:
+  bd notion sync [flags]
+
+Flags:
+      --create-only     Only create missing remote pages, do not update existing ones
+      --dry-run         Preview changes without making mutations
+  -h, --help            help for sync
+      --prefer-local    On conflict, keep the local beads version
+      --prefer-notion   On conflict, use the Notion version
+      --pull            Only pull issues from Notion
+      --push            Only push issues to Notion
+      --state string    Issue state to sync: open, closed, or all (default "all")
+
+Global Flags:
+      --actor string              Actor name for audit trail (default: $BEADS_ACTOR, git user.name, $USER)
+      --db string                 Database path (default: auto-discover .beads/*.db)
+      --dolt-auto-commit string   Dolt auto-commit policy (off|on|batch). 'on': commit after each write. 'batch': defer commits to bd dolt commit; uncommitted changes persist in the working set until then. SIGTERM/SIGHUP flush pending batch commits. Default: off. Override via config key dolt.auto-commit
+      --json                      Output in JSON format
+      --profile                   Generate CPU profile for performance analysis
+  -q, --quiet                     Suppress non-essential output (errors only)
+      --readonly                  Read-only mode: block write operations (for worker sandboxes)
+      --sandbox                   Sandbox mode: disables auto-sync
+  -v, --verbose                   Enable verbose/debug output
+```
