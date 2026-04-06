@@ -1,0 +1,118 @@
+name: Beads Release Watch
+
+on:
+  schedule:
+    - cron: "0 9 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  watch-release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Ensure state file exists
+        run: |
+          mkdir -p .github
+          if [ ! -f .github/beads-release-state.json ]; then
+            echo '{"last_seen_tag":""}' > .github/beads-release-state.json
+          fi
+
+      - name: Fetch latest beads release
+        id: release
+        run: |
+          set -euo pipefail
+          response="$(curl -fsSL -H "Accept: application/vnd.github+json" https://api.github.com/repos/gastownhall/beads/releases/latest)"
+          latest_tag="$(echo "$response" | jq -r '.tag_name')"
+          latest_url="$(echo "$response" | jq -r '.html_url')"
+          latest_name="$(echo "$response" | jq -r '.name // ""')"
+          latest_published_at="$(echo "$response" | jq -r '.published_at // ""')"
+          previous_tag="$(jq -r '.last_seen_tag // ""' .github/beads-release-state.json)"
+
+          echo "previous_tag=$previous_tag" >> "$GITHUB_OUTPUT"
+          echo "latest_tag=$latest_tag" >> "$GITHUB_OUTPUT"
+          echo "latest_url=$latest_url" >> "$GITHUB_OUTPUT"
+          echo "latest_name=$latest_name" >> "$GITHUB_OUTPUT"
+          echo "latest_published_at=$latest_published_at" >> "$GITHUB_OUTPUT"
+
+          if [ -n "$latest_tag" ] && [ "$latest_tag" != "$previous_tag" ]; then
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+            echo "Detected new beads release: $latest_tag"
+          else
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "No new beads release. Latest is: $latest_tag"
+          fi
+
+      - name: Create issue notification for new release
+        if: steps.release.outputs.changed == 'true'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const latestTag = process.env.LATEST_TAG;
+            const latestUrl = process.env.LATEST_URL;
+            const latestName = process.env.LATEST_NAME;
+            const latestPublishedAt = process.env.LATEST_PUBLISHED_AT;
+
+            const owner = context.repo.owner;
+            const repo = context.repo.repo;
+            const title = `[beads-watch] New beads release detected: ${latestTag}`;
+            const body = [
+              `A new upstream release for \`gastownhall/beads\` has been detected.`,
+              ``,
+              `- Tag: \`${latestTag}\``,
+              `- Name: ${latestName || "(no release name)"}`,
+              `- Published: ${latestPublishedAt || "(unknown)"}`,
+              `- URL: ${latestUrl}`,
+              ``,
+              `This issue was created by the weekly \`Beads Release Watch\` workflow.`
+            ].join("\n");
+
+            const { data: existing } = await github.rest.issues.listForRepo({
+              owner,
+              repo,
+              state: "open",
+              per_page: 100
+            });
+
+            const alreadyExists = existing.find((issue) => issue.title === title);
+            if (alreadyExists) {
+              core.info(`Issue already exists for ${latestTag}: #${alreadyExists.number}`);
+              return;
+            }
+
+            await github.rest.issues.create({
+              owner,
+              repo,
+              title,
+              body
+            });
+        env:
+          LATEST_TAG: ${{ steps.release.outputs.latest_tag }}
+          LATEST_URL: ${{ steps.release.outputs.latest_url }}
+          LATEST_NAME: ${{ steps.release.outputs.latest_name }}
+          LATEST_PUBLISHED_AT: ${{ steps.release.outputs.latest_published_at }}
+
+      - name: Update state file
+        if: steps.release.outputs.changed == 'true'
+        run: |
+          jq --arg tag "${{ steps.release.outputs.latest_tag }}" '.last_seen_tag = $tag' .github/beads-release-state.json > .github/beads-release-state.json.tmp
+          mv -f .github/beads-release-state.json.tmp .github/beads-release-state.json
+
+      - name: Commit and push updated state
+        if: steps.release.outputs.changed == 'true'
+        run: |
+          set -euo pipefail
+          if git diff --quiet -- .github/beads-release-state.json; then
+            echo "No state changes to commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add .github/beads-release-state.json
+          git commit -m "chore: record latest beads release tag (${{ steps.release.outputs.latest_tag }})"
+          git push

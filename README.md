@@ -153,3 +153,16 @@ cleanly inside the summary documents.
   into an AI assistant before asking questions about `bd`.
 - Re-run with `--steps insights` after a `bd` upgrade to refresh the AI
   insights without re-harvesting.
+
+## Weekly beads release watcher
+
+`bd-docs` includes a GitHub Actions workflow at
+`.github/workflows/beads-release-watch.yml` that checks
+`gastownhall/beads` every week for a new release.
+
+- **Schedule:** every Monday at 09:00 UTC
+- **Manual run:** GitHub → Actions → `Beads Release Watch` → `Run workflow`
+- **Notification:** creates an issue in this repository when a new upstream
+  release is detected
+- **State tracking:** stores the last seen tag in
+  `.github/beads-release-state.json` to avoid duplicate alerts
